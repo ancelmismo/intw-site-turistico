@@ -31,12 +31,9 @@ button {
 }
 
 header {
-    
-    background: no-repeat center/cover url('../image/alagoas-banner.jpg');
-    color: white;
-    display: table;
-    width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 160px);
+    background: no-repeat center/cover url('../image/praias-banner.jpg');
+    color: #ffff;
 }
 
 header nav {
@@ -69,11 +66,69 @@ header nav ul li {
 
 .header-content {
     max-width: 400px;
-    margin: 150px auto;
+    margin: 120px auto;
     text-align: center;
 }
 
 .header-content h1 {
     margin-bottom: 10px;
     font-size: 4rem;
+}
+
+.praias {
+    background: #e1e8f7;
+    padding: 15px;
+}
+
+.praias-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.praias-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+}
+
+.card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 0 15px;
+}
+
+.card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.card-content h1 {
+    font-size: 1rem;
 }
