@@ -46,6 +46,7 @@ header {
 
     /*isto fará os elementos filhos se adaptarem ao header*/
     position: relative;
+    color: white;
 }
 
 header .bg-video {
