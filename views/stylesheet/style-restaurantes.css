@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: #e1e8f7;
+    background: #c0c4ab;
 }
 
 ul {
@@ -33,7 +33,7 @@ button {
 
 header {
     height: calc(100vh - 160px);
-    background: no-repeat center/cover url('../image/praias-banner.jpg');
+    background: no-repeat center/cover url('../image/restaurante-casa-de-mainha.jpg');
     color: #ffff;
 }
 
@@ -76,12 +76,12 @@ header nav ul li {
     font-size: 4rem;
 }
 
-.praias {
+.restaurantes {
     background: #e1e8f7;
     padding: 15px;
 }
 
-.praias-cards {
+.restaurantes-cards {
     display: flex;
     margin: auto;
     max-width: 950px;
@@ -89,7 +89,7 @@ header nav ul li {
     justify-content: center;
 }
 
-.praias-title {
+.restaurantes-title {
     width: 100%;
     text-align: center;
     margin: 25px 0;
@@ -124,6 +124,7 @@ header nav ul li {
 .card-content ul li {
     font-size: 0.6rem;
     display: flex;
+    text-align: justify;
     align-items: center;
     margin: 3px 0;
     color: grey;
