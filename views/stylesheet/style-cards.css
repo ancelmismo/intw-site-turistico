@@ -1,0 +1,38 @@
+.card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+}
+
+.card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 0 15px;
+}
+
+.card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.card-content h1 {
+    font-size: 1rem;
+}
