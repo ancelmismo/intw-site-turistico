@@ -10,7 +10,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #e8ecf7;
     height: calc(100vh - 160px);
-    text-shadow: 0.2em 0.2em #0000007a;
 }
 ul {
     /* Retirar a marcação*/
