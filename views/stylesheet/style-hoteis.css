@@ -42,7 +42,7 @@ button {
 header {
     /*Ajuste a largura e altura desejadas aqui*/
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 160px);
 
     /*isto fará os elementos filhos se adaptarem ao header*/
     position: relative;
@@ -55,13 +55,13 @@ header .bg-video {
     left: 0;
     z-index: -1; /*apenas um -1 é necessário quando se trabalha com relative + absolute, sendo pai e filho*/
     width: 100%;
-    height: 100%;
+    height: 80%;
     overflow: hidden; /* evita do video passar a altura desejada do header */
+    margin: 0px;
 }
 
 header video {
     width: 100%;
-    height: auto;
 }
 
 header nav {
@@ -119,6 +119,7 @@ header nav ul li {
 .hoteis-title {
     width: 100%;
     text-align: center;
-    margin: 25px 0;
+    margin: 25px 00px;
 }
+
 
