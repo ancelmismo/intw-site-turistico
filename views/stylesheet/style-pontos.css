@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: #e8ecf7;
+    background: #e1e8f7;
 }
 
 ul {
@@ -33,7 +33,7 @@ button {
 
 header {
     height: calc(100vh - 160px);
-    background: no-repeat center/cover url('../image/restaurante-casa-de-mainha.jpg');
+    background: no-repeat center/cover url('../image/pontos-banner.jpg');
     color: #ffff;
 }
 
@@ -76,12 +76,12 @@ header nav ul li {
     font-size: 4rem;
 }
 
-.restaurantes {
+.pontos {
     background: #e1e8f7;
     padding: 15px;
 }
 
-.restaurantes-cards {
+.pontos-cards {
     display: flex;
     margin: auto;
     max-width: 950px;
@@ -89,9 +89,8 @@ header nav ul li {
     justify-content: center;
 }
 
-.restaurantes-title {
+.pontos-title {
     width: 100%;
     text-align: center;
     margin: 25px 0;
 }
-
