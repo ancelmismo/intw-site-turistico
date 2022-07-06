@@ -5,12 +5,13 @@
 }
 
 body {
+
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background: #e8ecf7;
     height: calc(100vh - 160px);
+    text-shadow: 0.2em 0.2em #0000007a;
 }
-
 ul {
     /* Retirar a marcação*/
     list-style: none;
@@ -36,6 +37,7 @@ header {
     height: calc(100vh - 160px);
     background: no-repeat center/cover url('https://bwpremiermaceio.sfo2.digitaloceanspaces.com/2019/12/fotos_kaio_fragoso_20181226_2030290518-1024x681.jpg');
     color: #ffff;
+    text-shadow: 0.1em 0.1em #00000062;
 }
 
 header nav {
@@ -72,7 +74,7 @@ header nav ul li {
     text-align: center;
 }
 
-.header-content h1 {
+.header-content h1{
     margin-bottom: 10px;
     font-size: 4rem;
 }
@@ -85,15 +87,28 @@ header nav ul li {
 }
 
 .artesanato{
-
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 75%;
-    padding: 25%;
     margin-top: 30px;
     text-align: center;
 
+}
+
+.artesanato p{
+    background-color: #0000007c;
+    padding: 20%;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.artesanato h2{
+    background-color: #0000007c;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    font-size: 2em;
 }
 
 #file-renda{
